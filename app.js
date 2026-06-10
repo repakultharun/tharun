@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware to parse JSON bodies
 app.use(express.json());
- 
+  
 // Set port and verify_token
 const port = process.env.PORT || 3000;
 const verifyToken = process.env.vibecode;
